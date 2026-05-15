@@ -57,8 +57,8 @@ app.post('/login', async (req, res) => {
 // Route 2 - Profile
 app.get('/profile', (req, res) => {
   res.json({
-    name: 'Professor Anamur Rashid',
-    department: 'CSE',
+    name: "Muhammad Anamur Rashid",
+    department: "Computer Science and Engineering",
     email: 'muhammadanamurrashid@gmail.com'
   })
 })
